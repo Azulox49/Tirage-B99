@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <head>
+        <title>Je sais pas encore</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="icon" href="img/Brooklyn_Nine-Nine_Logo.png">
+    </head>
+</head>
+
+<html>
+    <body>
+ 
+        <p>A typical arithmetic operation takes two numbers and produces a new number.</p>
+ 
+        <p id="demo"></p>
+ 
+        <button class="bouton_saison" onclick="document.getElementById('demo').innerHTML = random(32,512)">Saison :</button>
+
+        <script>
+ 
+            function random(min, max){
+            return Math.floor(Math.random() * (max - min) + min)
+            }
+      
+        </script>
+ 
+    </body>
+</html>
