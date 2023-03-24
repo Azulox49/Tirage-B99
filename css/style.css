@@ -21,8 +21,8 @@ button.bouton{
 div.php{
     z-index: 1;
     position: absolute;
-    font-size: 600%;
-    top: 50%;
-    right: 50%;
-    left: 50%;
+    font-size: 400%;
+    left: 28%;
+    right: 22%;
+    top: 45%;
 }}
