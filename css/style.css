@@ -23,5 +23,6 @@ div.php{
     position: absolute;
     font-size: 600%;
     top: 50%;
-    left: 33%;
+    right: 50%;
+    left: 50%;
 }}
