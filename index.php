@@ -4,13 +4,15 @@
         <title>Je sais pas encore</title>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="icon" href="img/Brooklyn_Nine-Nine_Logo.png">
+        <link rel="icon" href="img/logo.png">
         
     </head>
 </head>
 
 <html> 
 <body>
+
+<img src="img/logo2.png" class="logo2">
 
 <div class="tous">
 
