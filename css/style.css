@@ -2,11 +2,26 @@ body{
     background-color: #f7e900;
 }
 
-.bouton_saison{
-    font-size :xx-large;
-    height: 20%;
-    width: 50%;
-    position: absolute; /* postulat de départ */
-    top: 50%; left: 50%; /* à 50%/50% du parent référent */
-    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+div.tous{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+button.bouton{
+    z-index: 2;
+    font-size: 800%;
+    position: absolute;
+    top: 40%;
+    height: 350px;
+    width: 1000px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+div.php{
+    z-index: 1;
+    position: absolute;
+    font-size: 600%;
+    top: 50%;
+    left: 33%;
+}}
