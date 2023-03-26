@@ -1,38 +1,81 @@
 body{
     background-color: #f7e900;
+    margin: 0;
+}
+/*
+.wrap{
+    position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 100px;
+     height: 100px;
 }
 
-div.tous{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
 
-button.bouton{
-    z-index: 2;
-    font-size: 800%;
+.styled {
+    z-index: 3;
     position: absolute;
-    top: 40%;
-    height: 30%;
-    width: 55%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 10rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color:#ffffff;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styled:hover {
+    background-color:#e9e9e9;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+*/
+
+
+
+.button{
+    z-index: 3;
+    position: absolute; /* postulat de départ */
+    top: 50%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+    height: max-content;
+    width: max-content;
+}
+
+.button2{
+    height: 150px;
+    width: 500px;
+    font-size: 3em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 div.php{
-    z-index: 1;
-    position: absolute;
-    font-size: 600%;
-    top: 50%;
-    left: 30%;
-    right: 30%;
+    position: absolute; /* postulat de départ */
+    top: 50%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+    font-size: 3em;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 img.logo2{
+    z-index: 3;
     position: absolute;
     height: 22%;
     width: 22%;
-    top: 5%;
+    top: 3%;
     left: 38%;
     right: 38%;
 }
