@@ -13,7 +13,7 @@
 <body>
 
 <img src="img/logo2.png" class="logo2">
-
+<img src="img/bas_de_page.png" class="bas_de_page">
 
 <div class="wrap">
 
